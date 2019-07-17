@@ -1,0 +1,144 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #eaeaea;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 320px;
+  background-color: #fff;
+}
+
+nav {
+  box-shadow: none;
+  height: 56px;
+}
+nav .nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0px 15px;
+}
+nav .nav-wrap h6 {
+  font-size: 18px;
+  font-weight: 300;
+}
+nav .nav-wrap i {
+  cursor: pointer;
+}
+
+.jumbo {
+  height: 130px;
+  background: url('image/back.jpg');
+  background-size: cover;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.icons .big-icon {
+  width: 134px;
+  height: 134px;
+  background: url('image/ddong.jpg') center center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: -67px;
+}
+.icons .chat-icon {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  order: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #F44336;
+  border-radius: 50%;
+  margin-top: -25px;
+}
+.icons .chat-icon i {
+  font-size: 21px;
+  color: white;
+  cursor: pointer;
+}
+.icons .add-icon {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #2196F3;
+  border-radius: 50%;
+  margin-top: -25px;
+}
+.icons .add-icon i {
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details h6 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.details p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #03A9F4;
+  margin-top: 5px;
+}
+
+.bio {
+  text-align: center;
+}
+.bio p {
+  color: #999;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0px 20px;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+}
+.photos #first {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+  width: 150px;
+  height: 100px;
+  border-radius: 3px;
+  background: url('image/ddong.jpg');
+  background-size: 105%;
+  background-position: 0px -10px;
+}
+.photos #second {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+  width: 150px;
+  height: 100px;
+  border-radius: 3px;
+  background: url('image/back.jpg');
+  background-size: 140%;
+  background-position: -23px -5px;
+}

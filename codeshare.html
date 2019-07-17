@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Python editor with highlighting</title>
+
+
+
+
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ACE in Action</title>
+<style type="text/css" media="screen">
+    #editor {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+</style>
+</head>
+<body>
+
+<div id="editor">from _stbt import imgproc_cache, logging, utils
+from _stbt.config import ConfigurationError, get_config
+from _stbt.gst_utils import (array_from_sample, Frame, gst_iterate,
+                             gst_sample_make_writable, sample_shape)
+from _stbt.logging import ddebug, debug, warn
+
+gi.require_version("Gst", "1.0")
+from gi.repository import GLib, GObject, Gst  # isort:skip pylint: disable=E0611
+
+Gst.init(None)
+
+warnings.filterwarnings(
+    action="always", category=DeprecationWarning, message='.*stb-tester')
+
+
+}</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/xcode");
+    editor.getSession().setMode("ace/mode/python");
+</script>
+</body>
+</html>
+
+
+
+</body>
+
+</html>
